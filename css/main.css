@@ -1,0 +1,318 @@
+/***** BASE STYLES *****/
+
+.body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about, #work, #work-examples, #self-publishing, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width:100%;
+    margin: 0 auto;
+}
+
+.half-width {
+    float:left;
+    column-count:2;
+}
+
+.third-width {
+    width:33.3%;
+    float:left;
+}
+
+/***** HEADER STYLE *****/
+
+header {
+    background-image: url('../img/background.png'); 
+    background-size:cover;
+    height:700px;
+}
+
+img {
+    margin: 0 auto;
+    padding:200px 0 0 150px;
+    float:left;
+}
+
+header h1 { 
+    font-family:'Lora',serif;
+    color:#FFF;
+    font-size:40px;
+    float:left;
+}
+
+nav {
+    position:fixed;
+    background-color:#b18cd9;
+    width:100%;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    color: white;
+    padding: 40px; 
+}
+
+header h2 {
+    width: 1000px;
+    font-family:'Lora',serif;
+    color:white;
+    font-size:35px;
+    line-height:45px;
+    text-shadow: 2px 2px 4px #000000;
+    padding:250px 20px 100px 150px;
+}
+
+h3 {
+    font-family:'Lora',serif;
+    font-size: 46px;
+    color: #2b2b2b;
+    line-height: 40px;
+    font-weight:bold;
+    padding:60px 0 50px 70px;
+    clear:both;
+}
+
+/***** ABOUT STYLE *****/
+#about {
+    width:1100px;
+    height:500px;
+    padding: 0 80px 0px 80px;
+    margin: 5px;
+}
+
+#about p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:26px;
+    line-height:40px;
+    color: #7f7f7f;
+    width:580px;
+    padding:0 60px 0px 60px;
+    margin:5px;
+
+}
+
+/***** WORK STYLE *****/
+
+#work {
+    background-color: #ccb3e6;
+    width:1100px;
+    height:500px;
+    margin: 0 auto;
+    padding:30px 0 0 30px;
+}
+
+#work img {
+    padding:0 0 20px 20px;
+    width:70px;
+    margin:5px;
+}
+
+
+#work .third-width {
+    width:320px;
+    margin:15px;
+}
+
+#work h3 {
+    font-family:'Source Sans Pro', sans-serif;
+    font-size:35px;
+    line-height:40px;
+    text-align:center;
+    width:320px;
+    padding:0 20px;
+}
+ 
+#work p {
+    font-family:'Source Sans Pro', sans-serif;
+    font-size:20px;
+    line-height:35px;
+    text-align:center;
+    width:320px;
+    padding:0 30px 50px 30px;
+}
+
+
+/***** WORK-EXAMPLES STYLE *****/
+
+#work-examples .full-width {
+    width:1400px;
+    padding-left:20px;
+}   
+
+#work-examples .full-width h2 {
+    font-family:'Source Sans Pro', sans-serif; 
+        color:RebeccaPurple;
+        font-size:50px;
+        text-align:center;
+        margin: 0 auto;
+        padding:20px 0 20px 0;
+        width:1000px;
+    }
+
+    #work-examples .full-width p {
+        font-family:'Lora',serif; 
+        color:RebeccaPurple;
+        font-size:20px;
+        line-height:30px;
+        text-align:center;
+        padding:0 0 20px 0;
+        margin: 0 auto;
+        width:1250px;
+    }
+
+    .gallery {
+        margin:auto;
+    }
+
+    .gallery img {
+        padding:5px;
+        height:200px;
+    }
+
+    .gallery img:hover {
+        transform:scale(1.1);
+    }
+    
+
+/***** SELF-PUBLISHING-HEAD STYLE *****/
+
+
+#self-publishing .full-width {
+    background-color: #ccb3e6;
+    height:1250px;
+    width:1200px;
+    margin:1600px auto;
+    padding: 0 50px 0 50px;
+}
+
+#self-publishing .full-width p {
+    font-family:'Lora',serif;
+    font-size: 25px;
+    color: #2b2b2b;
+    line-height: 40px;
+    width:1100px;
+    text-align:center;
+    padding:0 50px 0 0;
+}
+
+#self-publishing h2 {
+    font-family:'Source Sans Pro', sans-serif;
+    color:Rebeccapurple;
+    font-size:60px;
+    margin: 0 auto;
+    text-align:center;
+    padding:50px 20px 30px 0;
+}
+
+#self-publishing .half-width {
+    width:570px;
+    float:left;
+}
+
+#self-publishing .half-width p {
+    font-family:'Source Sans Pro', sans-serif;
+    font-size:20px;
+    text-align:center;
+    line-height:30px;
+    padding:0 0 20px 50px;
+    width:400px;
+    clear:both;
+}
+
+#self-publishing .half-width img {
+    padding:20px 0px 20px 0px;
+}
+
+/***** CONTACT STYLE *****/
+
+#contact {
+	background-image: url('../img/background.png'); 
+    background-size:cover;
+    height:700px;
+    margin-top:700px;
+}
+
+#contact .full-width {
+    padding: 110px 50px;
+}
+#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+    padding:0 0 0 0;
+    width: 500px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 45px;
+}
+#contact #envelope {
+    padding: 30px 10px 0 50px;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    line-height: 44px;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    padding:0 0 0 45px;
+}
+
+#contact #email-header{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0 0 0 0;
+
+}
+#contact a {
+    font-family:'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 36px;
+}
+#contact a img {
+    width:40px;
+    padding:0 0 0 45px;
+    margin:5px 5px 0 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#contact ul {
+    list-style:none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img { 
+    margin:0 20px 0 0;
+    width:40px;
+    padding:5px;
+}
